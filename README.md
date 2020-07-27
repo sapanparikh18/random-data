@@ -1,6 +1,7 @@
 # Random Data Generator
 
-Have you ever wondered how hard it is to generate random but meaningful data! That's what this random data generator utility does.
+Have you ever wondered how hard it is to generate random but meaningful data! 
+That's what this random data generator Java library does.
 
 It can create random person names, random state acronyms, and random addresses with latitude and longitudes. 
 
