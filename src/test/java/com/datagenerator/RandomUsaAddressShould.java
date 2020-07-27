@@ -10,7 +10,6 @@ public class RandomUsaAddressShould {
         UsaAddress usaAddress = randomUsaAddress.next();
         Assertions.assertThat( usaAddress.getLat()).isNotNull().isNotEmpty().isNotBlank();
         Assertions.assertThat( usaAddress.getLon()).isNotNull().isNotEmpty().isNotBlank();
-        Assertions.assertThat( usaAddress.getNumber()).isNotNull().isNotEmpty().isNotBlank();
         Assertions.assertThat( usaAddress.getStreet()).isNotNull().isNotEmpty().isNotBlank();
         Assertions.assertThat( usaAddress.getCity()).isNotBlank().isNotEmpty().isNotNull();
         Assertions.assertThat( usaAddress.getZip()).isNotBlank().isNotEmpty().isNotNull();
