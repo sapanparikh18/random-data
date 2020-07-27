@@ -19,7 +19,6 @@ public class RandomUsaAddress {
         try {
             return getUsaAddress(rowNum);
         } catch (IOException | URISyntaxException e) {
-            e.printStackTrace();
             throw new UnsupportedOperationException();
         }
     }
