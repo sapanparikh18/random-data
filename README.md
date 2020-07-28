@@ -24,7 +24,7 @@ public class Example {
 ``` 
 The above program will generate data which will look somewhat like the following 
 
-```JSON
+```
 Person{personName=PersonName{firstName='NIEVES', lastName='ALMONTE', middleInitial=W}, address=UsaAddress{city='HAMPSTEAD', zip='03841', stateAcronym='NH', number='6', street='WESTWOOD RD', unit='', lat='42.8791028', lon='-71.1897373'}, gender=Female}
 
 ```
